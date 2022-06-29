@@ -13,6 +13,12 @@ use abc_company;
 select * from employees
 where salary  = 6000 and first_name = 'Harry';
 
+select * from employees
+where salary  = 6000 or first_name = 'Harry';
+
+select * from employees
+where not salary = 6000;
+
 
 
 
