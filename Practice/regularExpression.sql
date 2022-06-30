@@ -25,14 +25,3 @@ where first_name regexp 'J|Sen|rry';
 
 select * from employees
 where first_name regexp '^[li]';
-
-
-
-
-
-
-
-
-
-
-
